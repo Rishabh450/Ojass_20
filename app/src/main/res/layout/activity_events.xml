@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/events_background">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/events_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:paddingTop="66dp"
+        android:overScrollMode="never"
+        />
+
+    <include
+        android:id="@+id/events_toolbar"
+        layout="@layout/event_toolbar"
+        android:background="@color/transparent" />
+
+    <FrameLayout
+        android:id="@+id/fragment_layout_for_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="58dp" />
+</RelativeLayout>

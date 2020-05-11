@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorAccent"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OJASS Convenor"
+        android:textSize="16sp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/primaryTextColor"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/emergency_title"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5476424124124124"
+        android:paddingRight="10dp"
+        android:textColor="@color/hyperlinkcolor"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:autoSizeTextType="uniform"
+        android:id="@+id/emergency_phone"
+
+        />
+</RelativeLayout>

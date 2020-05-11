@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:overScrollMode="never"
+    android:background="@color/colorAccent"
+    >
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/colorAccent"
+                >
+
+                <TextView
+                    android:id="@+id/title_about"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="About"
+                    android:overScrollMode="never"
+                    android:textSize="22dp"/>
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true"
+                    android:overScrollMode="never"
+                    >
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/abt_layout"
+                        >
+                        <TextView
+                            android:id="@+id/text_about"
+                            android:paddingBottom="65dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:justificationMode="inter_word"
+                            android:overScrollMode="never"
+                            android:textColor="@color/primaryTextColor"
+                            />
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".Activities.RegistrationPage"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:scaleY="1.0"
+                android:scaleX="1.0"
+                android:src="@mipmap/register_img"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:alpha="0.5"
+                    android:text="Ojass Welcomes"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/opensans"
+                    android:gravity="center_horizontal|top"
+
+                    />
+            <TextView
+                android:id="@+id/overlap_text"
+                android:layout_width="match_parent"
+                android:alpha="0.5"
+                android:text="Ritik"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:fontFamily="@font/opensans"
+                android:gravity="center_horizontal|top"
+                android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="130dp"
+                android:id="@+id/register_self_pic"
+                android:layout_height="130dp"
+                android:layout_marginTop="105dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_centerHorizontal="true"
+                android:padding="8dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="42dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    style="@style/RegisterTextInputLayoutStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:padding="8dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/Name_Registration_page"
+                            android:background="@drawable/backgroung_edittext_registration_page"
+                            android:textColor="@color/primaryTextColor"
+                            android:textColorHint="@color/secondaryTextColor"
+                            android:fontFamily="@font/opensans"
+                            android:hint="User Name"/>
+                    </LinearLayout>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="@color/white"
+                    android:layout_margin="8dp"
+                    android:padding="8dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/Email_Registration_page"
+                            android:fontFamily="@font/opensans"
+                            android:paddingLeft="5dp"
+                            android:background="@drawable/backgroung_edittext_registration_page"
+                            android:textColor="@color/primaryTextColor"
+                            android:textColorHint="@color/secondaryTextColor"
+                            android:inputType="textWebEmailAddress"
+                            android:hint="Email-Id"/>
+                    </LinearLayout>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="@color/white"
+                    android:layout_margin="8dp"
+                    android:padding="8dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="0dp"
+                            android:layout_weight="5"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/Mobile_Registration_page"
+                            android:fontFamily="@font/opensans"
+                            android:paddingLeft="5dp"
+                            android:background="@drawable/backgroung_edittext_registration_page"
+                            android:textColor="@color/primaryTextColor"
+                            android:textColorHint="@color/secondaryTextColor"
+                            android:inputType="phone"
+                            android:hint="Mobile No."/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:text="Verify"
+                            android:textColor="@color/primaryTextColor"
+                            android:layout_margin="0dp"
+                            android:textSize="16sp"
+                            android:background="@color/grey"
+                            android:fontFamily="@font/opensans"
+                            android:textStyle="bold"
+                            style="@style/OpenSansTextStyle"
+                            android:id="@+id/verify_otp"/>
+                    </LinearLayout>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    style="@style/RegisterTextInputLayoutStyle"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="@color/white"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/College_Registration_page"
+                            android:paddingLeft="5dp"
+                            android:fontFamily="@font/opensans"
+                            android:background="@drawable/backgroung_edittext_registration_page"
+                            android:textColor="@color/primaryTextColor"
+                            android:textColorHint="@color/secondaryTextColor"
+                            android:hint="Institute Name"/>
+                    </LinearLayout>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Branch       "
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/opensans"
+                        android:textSize="18sp"
+                        android:textColor="@color/primaryTextColor"
+                        />
+
+                    <Spinner
+                        android:id="@+id/branch_registration_page"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:dropDownSelector="@drawable/ic_keyboard_arrow_down_black_24dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/spinner_background"
+                        android:padding="8dp"
+                        android:popupBackground="@color/grey"
+                        android:textColor="@color/white"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="T-Shirt size "
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/opensans"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="18dp"
+                        android:popupBackground="@color/grey"
+
+                        />
+
+                    <Spinner
+                        android:id="@+id/TShirt_Size_Registration_page"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:dropDownSelector="@drawable/ic_keyboard_arrow_down_black_24dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/spinner_background"
+                        android:padding="8dp"
+                        android:popupBackground="@color/grey"
+                        android:textColor="@color/white"
+
+                        />
+                </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="     Register     "
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_margin="32dp"
+                    android:fontFamily="@font/opensans"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    style="@style/OpenSansTextStyle"
+                    android:background="@color/grey"
+                    android:id="@+id/register_button_Registration_page"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:text="Skip"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_margin="0dp"
+                    android:textSize="16sp"
+                    android:background="@color/grey"
+                    android:fontFamily="@font/opensans"
+                    android:textStyle="bold"
+                    style="@style/OpenSansTextStyle"
+                    android:id="@+id/skip_button_Registration_page"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        />
+</RelativeLayout>

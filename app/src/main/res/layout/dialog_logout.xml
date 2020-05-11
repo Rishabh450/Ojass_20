@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryTextColor"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you wanna logout?"
+        android:paddingLeft="10dp"
+        android:textColor="@color/primaryTextColor"
+        android:paddingTop="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/logout_cancel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="#41A317"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/dialog_logout"
+            android:textColor="#4DFF00"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+    </LinearLayout>
+</LinearLayout>

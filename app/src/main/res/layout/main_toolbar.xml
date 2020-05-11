@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_main"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize"
+    app:theme="@style/AppTheme"
+    app:titleTextAppearance="@style/OpenSansTextStyle"
+    app:titleTextColor="@color/white"
+    android:background="@color/colorPrimary"
+    >
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "152106484750",
+    "firebase_url": "https://ojass20-46eab.firebaseio.com",
+    "project_id": "ojass20-46eab",
+    "storage_bucket": "ojass20-46eab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152106484750:android:1d3bbfa2e596157665285f",
+        "android_client_info": {
+          "package_name": "ojass20.nitjsr.in.ojass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152106484750-pltcifpfm0825378hnmmqnk1uegohlv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj29_LzdKmiURfHShN32VSGYSfZHqOkOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152106484750-pltcifpfm0825378hnmmqnk1uegohlv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

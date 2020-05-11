@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="main_events_text">14sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="sub_event_frame">80dp</dimen>
+</resources>

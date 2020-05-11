@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@android:color/black">
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_red_dark"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/centerline"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/centerline"
+        android:id="@+id/left_side">
+        <View
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/line3"/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_toLeftOf="@+id/line3"
+            android:background="@drawable/itinerar_circle"
+            android:layout_centerVertical="true"
+            android:id="@+id/circle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/circle"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/itinerar_circle"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Junkyard Wars"
+                android:gravity="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/event_name_even"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:00 AM - 12:00 PM"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/event_time_even"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room : 122"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/event_venue_even"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/centerline"
+        android:id="@+id/right_side">
+        <View
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/line2"/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_toRightOf="@+id/line2"
+            android:background="@drawable/itinerar_circle"
+            android:layout_centerVertical="true"
+            android:id="@+id/circle1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/circle1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/itinerar_circle"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Junkyard Wars"
+                android:gravity="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/event_name_odd"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:00 AM - 12:00 PM"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/event_time_odd"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room : 122"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/event_venue_odd"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

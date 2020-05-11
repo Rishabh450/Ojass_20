@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_below="@+id/toolbar"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/events_background"
+    tools:context=".Activities.FeedbackActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/FeedbackEmail"
+                android:background="#ffffff"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:background="#ffffff"
+                android:id="@+id/FeedBackName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Name"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:background="#ffffff"
+                android:id="@+id/FeedBackSubject"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Subject"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:paddingLeft="5dp"
+                android:background="#ffffff"
+                android:id="@+id/FeedbackFeedBack"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:hint="FeedBack"
+                android:gravity="start"
+                android:maxLines="10"
+                />
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:padding="20dp"
+            android:id="@+id/FeedbackSubmit"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+    <include
+        layout="@layout/toolbar"
+        />
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize"
+    app:layout_scrollFlags="scroll|enterAlways|snap"
+    app:theme="@style/AppTheme"
+    app:title="@string/feeds"
+    app:titleTextAppearance="@style/OpenSansTextStyle"
+    app:titleTextColor="#FFF">
+
+    <LinearLayout
+        android:id="@+id/event_search_layout_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:paddingRight="16dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/event_search_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="7"
+            android:ems="10"
+            android:fontFamily="@font/opensans"
+            android:hint="Search a sub-event"
+            android:padding="5dp"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+        <ImageView
+            android:id="@+id/event_search_clear_text_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/ic_close_black_24dp" />
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

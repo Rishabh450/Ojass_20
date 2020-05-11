@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_event_available_black_24dp"
+            android:title="@string/events" />
+
+        <item
+            android:id="@+id/itinerary"
+            android:icon="@drawable/ic_timeline_black_24dp"
+            android:title="@string/itinerary" />
+
+        <item
+            android:id="@+id/sponsor"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="@string/sponsor" />
+
+        <item
+            android:id="@+id/team"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/team" />
+
+
+        <item
+            android:id="@+id/developers"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="@string/developers" />
+
+        <item
+            android:id="@+id/faqs"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="@string/faqs" />
+
+       <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="@string/feedback" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ojass_icon_trns"
+            android:title="About Us"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+
+    </group>
+</menu>

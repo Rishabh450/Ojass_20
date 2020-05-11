@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/singleItemTeamMember"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:background="@color/colorAccent"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:elevation="0dp"
+        android:outlineAmbientShadowColor="#000"
+        android:layout_height="80dp"
+        android:background="@color/colorAccent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/single_team_member_image"
+            android:background="@color/colorAccent"
+            />
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

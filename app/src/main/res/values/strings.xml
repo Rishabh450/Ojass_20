@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Ojass\'20</string>
+    <string name="feeds">Feeds</string>
+    <string name="comments">Comments</string>
+    <string name="faqs">FAQs</string>
+    <string name="events">Events</string>
+    <string name="itinerary">Itinerary</string>
+    <string name="help"><![CDATA[Help & Support]]></string>
+    <string name="team">The Team</string>
+    <string name="developers">Developers</string>
+    <string name="logout">Log out</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="upvote">Upvote</string>
+    <string name="like">Like</string>
+    <string name="unlike">Unlike</string>
+    <string name="downvote">Downvote</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="facebook_app_id">2540964276186660</string>
+    <string name="fb_login_protocol_scheme">fb2540964276186660</string>
+    <string name="title_activity_maps">Map</string>
+    <!-- Gurugyan -->
+    <string name="gurugyan_1_title">Lionel Messi</string>
+    <string name="gurugyan_1_description">Five times world player of the year. Six Golden Boots. Eight League titles. Four Champions Leagues. 91 goals in a calender year. Get ready to meet the best football player of all time. Lionel Messi. Here at NIT Jamshedpur.</string>
+    <string name="gurugyan_2_title">Cristiano Ronaldo</string>
+    <string name="gurugyan_2_description">Five times world player of the year. Five Champions Leagues. Most goals and wins in the Champions League. Euro 2016 winner. He has won league titles in England, Spain and Italy. Meet him in romm NA-207.</string>
+    <string name="gurugyan_3_title">Neymar Jr</string>
+    <string name="gurugyan_3_description">Highly skilled. Puskas award winner. Won Olympic gold for Brazil. The PSG star will be here on Day 3. Meet him room D-403.</string>
+    <string name="action_search">Search Events</string>
+    <string name="title_activity_sub_event">SubEventActivity</string>
+    <string name="gotit">Got It</string>
+    <string name="next">Next</string>
+    <string name="restart">Restart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sponsor">Sponsor</string>
+    <string name="backPress">Press again to exit</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="feedback">Feedback</string>
+
+    <string-array name="team_names">
+        <item>Administration</item>
+        <item>Core</item>
+        <item>Team Manager</item>
+        <item>Spokesperson</item>
+        <item>Planning &amp; Development</item>
+        <item>Corporate Relations &amp; marketing</item>
+        <item>Workshop</item>
+        <item>Digital PR &amp; Planning</item>
+        <item>Application &amp; Web Development</item>
+        <item>Creative Team</item>
+        <item>Media Relations</item>
+        <item>Public Relations</item>
+        <item>Transport Head</item>
+        <item>Event Management</item>
+        <item>Logistics</item>
+        <item>Hospitality</item>
+        <item>Decoration</item>
+        <item>Robotics</item>
+
+    </string-array>
+
+    <string-array name="noti_channel">
+        <item>OJASS</item>
+        <item>Arthashastra</item>
+        <item>CircuitHouse</item>
+        <item>VishwaCodeGenesis</item>
+        <item>NoGroundZone</item>
+        <item>Paraphernalia</item>
+        <item>Produs</item>
+        <item>SiliconValley</item>
+        <item>RiseOfMachines</item>
+        <item>NSCET</item>
+        <item>NeoDrishti</item>
+        <item>Exposicion</item>
+        <item>DeusXMachina</item>
+        <item>Avartan</item>
+        <item>Armageddon</item>
+        <item>Aakriti</item>
+        <item>Prayas</item>
+        <item>LiveCS</item>
+    </string-array>
+    <string-array name="eng_courses">
+        <item>Computer Science and Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Metallurgical Engineering and Material Science</item>
+        <item>Production Engineering and Management</item>
+        <item>Chemical Engineering</item>
+        <item>Biochemical / Biomedical Engineering</item>
+        <item>Aerospace / Aeronautical Engineering</item>
+        <item>Information Technology</item>
+        <item>Automation and Robotics</item>
+    </string-array>
+    <string name="Rs">\u20B9</string>
+    <string name="more">read more</string>
+    <string-array name="tshirt_size_list">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+        <item>XXXL</item>
+    </string-array>
+    <string name="techfest">NIT Jamshedpur</string>
+    <string name="about_us">
+        In the current era of advancing technology and automation, it is necessary that we be updated with the practical methodologies. Thus, to promote the idea of constructive thinking and sustainable growth, ​National Institute of Technology, Jamshedpur​ is organising the Thirteen installment of its annual Techno-Management fest, Ojass\'20 from February-28,2020 to March-1,2020. Ojass is the second largest fest of its kind in East India. It is a grand theatre of technological innovation and business calibre.
+With events ranging from filmmaking and photography to quizzes and prototype presentations, Ojass has events for everyone. Reinventing itself each year, Ojass sets new standards and hence, new challenges for everyone with every edition. The theme of Ojass\'20 is \"Indic Erudition\". So, buckle up and join us on this journey on February-28.
+    </string>
+    <string name="ojass_date">February-28,2020 to March-1,2020</string>
+</resources>
